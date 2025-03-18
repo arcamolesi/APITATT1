@@ -7,7 +7,6 @@ namespace APITATT1.Model
         public Contexto(DbContextOptions<Contexto> options): base(options) { }
 
         public DbSet<Aluno> Alunos { get; set; }
-        public DbSet<Disciplina> Disciplinas { get; set; }
-
+  
     }
 }
